@@ -1,0 +1,133 @@
+body{
+	 margin-right: 150px;
+	 
+	background: #c31432;  /* fallback for old browsers */
+	 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background-attachment: fixed;
+}
+html{
+	scroll-behavior: smooth;
+}
+h2{
+	margin-left:21%;
+	font-size:600%;
+	color:black
+}
+p{
+	word-spacing: 10px;
+	margin-left:21%;
+	font-size:500%;
+	color:white;
+}
+h1{
+	color:black;
+	font-family:verdana;
+	font-size:1000%;
+}
+h1:hover{
+	color: red;
+}
+
+img{
+	margin-left:15%;
+	border-radius: 50%;
+	margin-top:1%;
+}
+.button1{
+	background-image: linear-gradient(to left,#C4E538,#009432,#C4E538)
+	
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 100px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 8%;
+  margin-left:25%;
+}
+.button2{
+	background-image: linear-gradient(to left,#FFC312,#EE5A24,#FFC312)
+	
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 100px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top:10%;
+  margin-left: 10%;
+}
+.button3{
+	background-image: linear-gradient(to left,#FFC312,#EE5A24,#FFC312)
+	
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 100px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top:12%;
+  margin-left:20%;
+}
+.button4{
+	background-image: linear-gradient(to left,#FFC312,#EE5A24,#FFC312)
+	
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 100px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top:14%;
+  margin-left:20%;
+}
+.button5{
+	background-image: linear-gradient(to left,#FFC312,#EE5A24,#FFC312)
+	
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 100px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top:16%;
+  margin-left:23%;
+}
+.highlight:hover{
+	color:rgb(182, 22, 222);
+}
+.divide1{
+	float:left;
+	width:50%;
+	display:inline-block;
+	color:black;
+	font-family:verdana;
+	font-size:1000%;
+}
+.divide2{
+	display:inline-block;
+	width:50%;
+	float:right;
+	color:black;
+	font-family:verdana;
+	font-size:1000%;
+	position:relative;
+}
+.divide2::after{
+	content:' ';
+	width:0%;
+	height:7px;
+	background: #f12711;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color: red;
+	position: absolute;
+	bottom:0%;left:10%;right: 10%;
+	border-radius: 10px;
+	transition: all 200ms ease;
+}
+.divide2:hover::after{
+	left:0%;
+	width:30%;
+}
